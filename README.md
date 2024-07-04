@@ -14,10 +14,10 @@ To install tkinter run
 ```
     
 ## User Interface
-#Level selection UI
+### Level selection UI
 
 ![levelscreen](https://github.com/ManavHirekurbure-035/Mine-sweeper/assets/114732271/c41bec73-4b97-4bba-b941-b4c64b22161c)
 
-#Game Screen UI
+### Game Screen UI
 
 ![gamescreen](https://github.com/ManavHirekurbure-035/Mine-sweeper/assets/114732271/4bd565fe-9371-4386-8a89-3c2ca7b01b32)
