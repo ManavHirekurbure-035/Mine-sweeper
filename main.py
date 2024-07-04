@@ -1,8 +1,12 @@
 from tkinter import *
 import settings
 import utils
+import level
+
 
 from cell import Cell
+
+
 
 root = Tk()
 #override settings of window
@@ -10,6 +14,8 @@ root.configure(bg='#F6E6CB')
 # root.geometry(f'{settings.WIDTH}x{settings.HEIGHT}')
 root.title('Mine Sweeper')
 root.resizable(False,False)
+
+
 
 top_frame=Frame(
     root,
@@ -63,7 +69,9 @@ Cell.cell_count_label_object.pack(side = LEFT, padx = 40)
 Cell.mine_count_label_object.pack(side = LEFT, padx = 40)
 Cell.randomine_mines()
 
-  
+# executed if the level tab is closed without selecting any level
+if Cell.cellcount==0:
+    root.destroy()   
 
 #run window
 root.mainloop()
