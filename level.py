@@ -39,7 +39,7 @@ def level_choice() :
         
    
 
-    label = Label(window, text="Enter level" , font = ("Ariel", 22, "bold"), width = 20, bg = "#789461", pady=20, padx = 40)
+    label = Label(window, text="Select your level" , font = ("Ariel", 22, "bold"), width = 20, bg = "#789461", pady=20, padx = 40)
     label.pack()
     easy_btn = Radiobutton(
         window, 
